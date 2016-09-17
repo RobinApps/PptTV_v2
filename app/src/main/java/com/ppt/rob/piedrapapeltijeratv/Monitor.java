@@ -7,6 +7,8 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
+import com.ppt.rob.piedrapapeltijeratv.Vistas.Principal;
+
 public class Monitor extends BroadcastReceiver{
     public void onReceive(Context context,Intent intent) {
         Intent i = new Intent(context, Principal.class);

@@ -9,13 +9,8 @@ import com.google.firebase.database.FirebaseDatabase;
 public class FirebaseHelper {
     private DatabaseReference dataReference;
 
-    private final static String USERS_PATH = "users";
     private final static String COD_PATH= "codigo";
     private final static String PLAY_PATH= "play";
-    private static int cod=0;
-   
-
-
 
     private static class SingletonHolder { //tener una sola instancia en toda la aplicacion**
         private static final FirebaseHelper INSTANCE = new FirebaseHelper();
@@ -35,19 +30,13 @@ public class FirebaseHelper {
 
     public DatabaseReference getCodActual(){
         DatabaseReference codReference = null;
-        //  final int cod = 0;
-        //  final boolean listo=false;
         codReference = dataReference.getRoot().child(COD_PATH);
-
-
         return codReference;
     }
 
     public DatabaseReference getPlay() {
         DatabaseReference Reference = null;
         Reference = dataReference.getRoot().child(PLAY_PATH);
-
-
         return Reference;
     }
 }
