@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "948262409192",
+    "firebase_url": "https://piedra-papel-tijera-13e5a.firebaseio.com",
+    "project_id": "piedra-papel-tijera-13e5a",
+    "storage_bucket": "piedra-papel-tijera-13e5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948262409192:android:819c900bfcfed0f0",
+        "android_client_info": {
+          "package_name": "com.rosales.robin.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948262409192-egktcoa7k9ds73guq57igv6um3tmnvpq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyYsusyzbT7umR2doITfFrigGZD0dRr0c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948262409192:android:4a3af053d9d610df",
+        "android_client_info": {
+          "package_name": "com.example.rob.basefire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948262409192-egktcoa7k9ds73guq57igv6um3tmnvpq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyYsusyzbT7umR2doITfFrigGZD0dRr0c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948262409192:android:4a560ff874d47ef1",
+        "android_client_info": {
+          "package_name": "com.example.rob.firefire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948262409192-egktcoa7k9ds73guq57igv6um3tmnvpq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyYsusyzbT7umR2doITfFrigGZD0dRr0c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948262409192:android:1ac07396d37121f0",
+        "android_client_info": {
+          "package_name": "com.ppt.rob.piedrapapeltijeratv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948262409192-egktcoa7k9ds73guq57igv6um3tmnvpq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyYsusyzbT7umR2doITfFrigGZD0dRr0c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

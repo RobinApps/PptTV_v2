@@ -21,6 +21,7 @@ public class Principal extends AppCompatActivity {
     Principal thisActivity;
     VideoView videoView;
     FirebaseHelper helper = FirebaseHelper.getInstance();
+
 //En esta Activity mostra un video full pantalla vertical, y en la parte inferior aparesca el código generado aleatoriamente despues de cada juego
     //y que al momento de recibir una conexión de algun jugador cambie de activity para iniciar el juego
     //tambien create el servicio para que inicie la app al momento de iniciar el dispositivo movil.
@@ -38,6 +39,7 @@ public class Principal extends AppCompatActivity {
         // ----------------------/Hide code
         setVolumeControlStream(AudioManager.STREAM_MUSIC);
         videoView = (VideoView)findViewById(R.id.videoView);
+
         final DatabaseReference h=helper.getPlay();
         String uriPath = "android.resource://"+getPackageName()+"/raw/video";
         Uri uri = Uri.parse(uriPath);
@@ -46,9 +48,6 @@ public class Principal extends AppCompatActivity {
             @Override
             public void onCompletion(MediaPlayer mediaPlayer) {
                 if(!thisActivity.isFinishing()){
-                    /*Intent intent = new Intent(thisActivity, Main.class);
-                    thisActivity.startActivity(intent);
-                    thisActivity.finish();*/
                     videoView.start();
                 }
             }
@@ -58,12 +57,11 @@ public class Principal extends AppCompatActivity {
         h.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-
                 if (dataSnapshot.getValue().toString().equals("1")){
-
                 Intent i = new Intent(thisActivity, Second.class);
-                startActivity(i);}
-              //  h.setValue(0);
+                startActivity(i);
+                    finish();
+                }
             }
 
             @Override
